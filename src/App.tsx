@@ -8,18 +8,20 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/* <p>
           Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        </p> */}
+        <br></br>
+        {/*Create the HelloMessage Component passing name as the prop with the value of Zach */}
         <HelloMessage name="Zach"/>
-        <a
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );
