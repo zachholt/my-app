@@ -8,6 +8,7 @@ export default function HelloMessage({ name }: HelloMessageProps) {
     return (
         <div>
             <h1>Hello {name}</h1>
+            <h2>Welcome to Figma 2</h2>
         </div>
     )
 }
